@@ -7,7 +7,9 @@ class QueueWithLinkedList {
 
   // front: retrieves the first value
 
-  front() {}
+  front() {
+    
+  }
 
   // view: returns all values of the queue
 

@@ -23,7 +23,9 @@ class StackWithArray {
 
   // size: check the size of the stack
 
-  size() {}
+  size() {
+    this.item.length - 1
+  }
 
   // isEmpty: check if the stack is empty
 

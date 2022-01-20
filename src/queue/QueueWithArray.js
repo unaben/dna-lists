@@ -3,31 +3,47 @@ class QueueWithArray {
     this.items = []
   }
 
-  // front: retrieves the first value
+  // front: return the first value
 
-  front() {}
+  front() {
+    return this.items[0]
+  }
 
   // view: returns all values of the queue
 
-  view() {}
+  view() {
+    return this.items
+  }
 
   // enqueue: add to the end of the queue
   // TC: O(1)
 
-  enqueue(item) {}
+  enqueue(item) {
+    this.items.push(item)
+  }
 
   // dequeue: remove from the start of the queue
   // TC: O(n)
 
-  dequeue() {}
+  dequeue() {
+    this.items.shift()
+  }
 
   // size: check the size of the queue
 
-  size() {}
+  size() {
+    this.items.length
+  }
 
   // isEmpty: check if the queue is empty
 
-  isEmpty() {}
+  isEmpty() {
+    if (this.items.length === 0){
+      return true
+    } else {
+      return false
+    }
+  }
 }
 
 module.exports = QueueWithArray

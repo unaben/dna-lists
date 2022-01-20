@@ -13,7 +13,6 @@ describe("Queues with an Array", () => {
 
   it("the enqueue method should add a value to the end of the queue", () => {
     const queueToCompare = [1, 2, 3, 4]
-
     queue.enqueue(4)
 
     expect(queue.items).toEqual(queueToCompare)

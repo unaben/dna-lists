@@ -48,7 +48,7 @@ function toDeepEqual(util) {
   return { compare }
 }
 
-describe("Single Linked List", () => {
+xdescribe("Single Linked List", () => {
   let list
 
   beforeEach(() => {
