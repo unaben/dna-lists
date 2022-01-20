@@ -3,7 +3,7 @@ class QueueWithArray {
     this.items = []
   }
 
-  // front: return the first value
+  // front: returns the first value
 
   front() {
     return this.items[0]
@@ -32,17 +32,13 @@ class QueueWithArray {
   // size: check the size of the queue
 
   size() {
-    this.items.length
+    return this.items.length
   }
 
   // isEmpty: check if the queue is empty
 
   isEmpty() {
-    if (this.items.length === 0){
-      return true
-    } else {
-      return false
-    }
+    return this.items.length === 0
   }
 }
 
